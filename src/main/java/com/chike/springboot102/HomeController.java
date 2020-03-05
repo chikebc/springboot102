@@ -10,6 +10,8 @@ public class HomeController {
 
     public String homePage(Model model) {
         model.addAttribute("myvar", "Say hello to the people.");
+        model.addAttribute("myvar2", "No need to bow down.");
         return "hometemplate";
+
     }
 }
